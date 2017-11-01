@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-attachment: fixed;
+    background-image:
+        url("IMG_1944.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+header{
+    background-color: white;
+    opacity: .5;
+    margin-left: 70px;
+    margin-top: 30px;
+    width:1100px;
+}
+
+h1{
+    background-color: white;
+    color:black;
+    font-weight: 800;
+    padding: 15px;
+    
+}
+
+h2{
+    background-color:white;
+    color:black;
+    font-size: 1.5em;
+    opacity: .6;
+    margin-left: 0;
+    padding: 15px;
+    text-align: center;
+    width:1100px;
+    margin-left: 70px;
+    
+    
+}
+
+nav{
+    background-color: white;
+    margin-left: 70px;
+    padding: 15px;
+    width:1100px;
+}
+
+nav li {
+    color: black;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;  
+    font-size: 1.3em;
+}
+
+li {
+    list-style-type: none;
+}
+nav li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: azure;
+    color:#3385ff;
+    
+}
+p{
+    background-color: white;
+    margin-left: 70px;
+    padding: 60px;
+    width:1100px;
+    max-height: 100%;
+}
+
+.summery{
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+main{
+    max-height: 1000px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 1.2em;
+}
+* {
+    box-sizing: border-box;
+}
+
+.main1 {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h3{
+    text-align: left;
+    
+}
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.tooltip{
+    background-color: #3385ff;
+    margin:20px;
+    font-size: 1.5em;
+    padding: 20px;
+    color: white;
+}
+
+.examples{
+    padding-left: 70px;
+    padding-right: 80px;
+}
+.examples a:hover{
+    opacity: 0.7;
+}
+.h33{
+    background-color: white;
+    width: 1100px;
+    text-align: center;
+    margin-left: 70px;
+}
+
